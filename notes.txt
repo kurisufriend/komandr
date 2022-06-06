@@ -1,0 +1,16 @@
+an automation platform
+
+>libs:
+    ex: fortune
+    ex: notifications
+>>plugins
+    ex: notify when /dpt/ is up
+
+so:
+core; libs; plugins
+
+SO WHAT DOES THE CORE NEED TO DO????2:
+    >load libs into dict (?), make it available to plugins
+    >load plugins & start their processes
+    >make some variable space available to plugins
+
